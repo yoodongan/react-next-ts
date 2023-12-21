@@ -19,6 +19,7 @@ const NewExpense = (props) => {
 
   return (
     <div className='new-expense'>
+      {/* ExpenseForm 에서 state lifting. */}
       <ExpenseForm onSaveExpenseData={saveExpenseDataHandler}/> 
     </div>
   )

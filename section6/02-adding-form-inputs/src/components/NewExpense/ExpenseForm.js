@@ -34,6 +34,7 @@ const ExpenseForm = (props) => {
       date: new Date(userInput.enteredDate),
     };
 
+    // 상위 엘리먼트인 NewExpense에서 props 로 보낸 인자값 onSaveExpenseData 를 사용한다.
     props.onSaveExpenseData(expenseData);
 
     // form 제출이 완료되면 input 값을 다시 비워준다.
